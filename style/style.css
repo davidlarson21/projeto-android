@@ -1,0 +1,223 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: 'Android';
+    src: url('../fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+}
+
+root {
+    --cor0: #F687DF;
+    --cor1: #C28CEB;
+    --cor2: #C474D4;
+    --cor3: #8A87F6;
+    --cor4: #9074D4;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', cursive;
+    --fonte-android: 'Android', cursive;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: var(--cor0);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+a.externo::after {
+    content: '\1F517';
+}
+
+header {
+    background-image: linear-gradient(to bottom, #C28CEB, #9074D4);
+    min-height: 150px;
+    padding-top: 40px;
+}
+
+header>h1 {
+    color: white;
+    font-family: 'Bebas Neue';
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 3em;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.336);
+    text-align: center;
+    font-weight: normal;
+}
+
+header>p {
+    color: white;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 500px;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.336);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+nav {
+    background-color: #9074D4;
+    padding: 10px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.432);
+}
+
+nav>a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+}
+
+nav>a:hover {
+    background-color: #F687DF;
+    color: white;
+}
+
+main {
+    background-color: white;
+    max-width: 1000px;
+    min-width: 300px;
+    margin: auto;
+    margin-bottom: 60px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.493);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+main h1 {
+    color: #8A87F6;
+    font-family: 'Android';
+    font-weight: normal;
+    font-size: 1.8em;
+}
+
+main h2 {
+    font-family: 'Android';
+    color: #8A87F6;
+    font-size: 1.3em;
+    background-image: linear-gradient(to right, #F687DF, transparent);
+    text-indent: 8px;
+    font-weight: normal;
+}
+
+main p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1em;
+    font-size: 1em;
+    padding: 8px;
+}
+
+main strong {
+    color: #9074D4;
+    font-weight: bolder;
+}
+
+aside {
+    background-color: #C28CEB;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.493);
+}
+
+aside>h3 {
+    background-color: #9074D4;
+    color: white;
+    margin: -10px -10px 0px -10px;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+aside>ul {
+    list-style-type: '\2714\00A0';
+    list-style-position: inside;
+    columns: 2;
+}
+
+.asidep {
+    padding: 10px;
+    text-align: justify;
+}
+
+main a {
+    color: #9074D4;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 2px 6px;
+}
+
+main a:hover {
+    text-decoration: underline;
+    color: #F687DF;
+    border-radius: 5px;
+    background-color: rgb(241, 238, 238);
+}
+
+main img {
+    width: 100%;
+}
+
+main img.pequena {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+div.video{
+    background-color: white;
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    position: relative;
+    padding-bottom: 59%;
+}
+
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+footer {
+    background-color: #F687DF;
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+}
+
+footer>a {
+    font-family: 2em;
+    background-color: #8A87F6;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: white;
+    cursor: help;
+    border-radius: 5px;
+    background-color: #c474d48e;
+}
+
+footer p {
+    color: #9074D4;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 1.5em;
+    padding: 10px 10px;
+}
