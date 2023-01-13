@@ -36,7 +36,7 @@ a.externo::after {
 }
 
 header {
-    background-image: linear-gradient(to bottom, #C28CEB, #9074D4);
+    background-image: linear-gradient(to bottom, #307019, #429125);
     min-height: 150px;
     padding-top: 40px;
 }
@@ -62,11 +62,11 @@ header>p {
     padding-right: 10px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.336);
     text-align: center;
-    margin-bottom: 30px;
+    padding-bottom: 30px;
 }
 
 nav {
-    background-color: #9074D4;
+    background-color: #429125;
     padding: 10px;
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.432);
 }
@@ -81,7 +81,7 @@ nav>a {
 }
 
 nav>a:hover {
-    background-color: #F687DF;
+    background-color: #57B535;
     color: white;
 }
 
@@ -98,7 +98,7 @@ main {
 }
 
 main h1 {
-    color: #8A87F6;
+    color: #56B534;
     font-family: 'Android';
     font-weight: normal;
     font-size: 1.8em;
@@ -106,9 +106,9 @@ main h1 {
 
 main h2 {
     font-family: 'Android';
-    color: #8A87F6;
+    color: #38C22F;
     font-size: 1.3em;
-    background-image: linear-gradient(to right, #F687DF, transparent);
+    background-image: linear-gradient(to right, #4aa52965, transparent);
     text-indent: 8px;
     font-weight: normal;
 }
@@ -123,19 +123,19 @@ main p {
 }
 
 main strong {
-    color: #9074D4;
+    color: #56B534;
     font-weight: bolder;
 }
 
 aside {
-    background-color: #C28CEB;
+    background-color: #7acc5c65;
     padding: 10px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.493);
 }
 
 aside>h3 {
-    background-color: #9074D4;
+    background-color: #56B534;
     color: white;
     margin: -10px -10px 0px -10px;
     padding: 10px;
@@ -154,7 +154,7 @@ aside>ul {
 }
 
 main a {
-    color: #9074D4;
+    color: #479b29;
     text-decoration: none;
     font-weight: bold;
     padding: 2px 6px;
@@ -162,9 +162,9 @@ main a {
 
 main a:hover {
     text-decoration: underline;
-    color: #F687DF;
+    color: #479b29;
     border-radius: 5px;
-    background-color: rgb(241, 238, 238);
+    background-color: #0340015d;
 }
 
 main img {
@@ -194,8 +194,8 @@ div.video > iframe{
 }
 
 footer {
-    background-color: #F687DF;
-    color: white;
+    background-color: #57B535;
+    color: #577935;
     text-align: center;
     font-size: 0.8em;
     padding: 5px;
@@ -203,7 +203,7 @@ footer {
 
 footer>a {
     font-family: 2em;
-    background-color: #8A87F6;
+    background-color: #577935;
 }
 
 footer a:hover {
@@ -211,11 +211,12 @@ footer a:hover {
     color: white;
     cursor: help;
     border-radius: 5px;
-    background-color: #c474d48e;
+    background-color: #034001;
+    padding: 4px;
 }
 
 footer p {
-    color: #9074D4;
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
     font-size: 1.5em;
